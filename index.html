@@ -1,10 +1,66 @@
 <!DOCTYPE html>
 <html lang="ru">
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+
 <head>
     <meta charset="UTF-8">
     <title>X.M.</title>
-<link href="./css/style.css" rel="stylesheet"></head>
+    <link href="./css/style.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+</head>
+<style>
+    /* @font-face{
+        font-family:yezi;
+        src:url(../fonts/我的小叶子.ttf) format("truetype");
+        font-weight:400;
+        font-style:normal;
+    } */
+    /* .icon span a{
+        display:inline-block;height:100%;
+        font-family:yezi;
+        src:url(../fonts/我的小叶子.ttf) format("truetype");
+        font-weight:400;
+        font-size:40px;
+        text-transform:none;
+        font-style: normal;
+        text-align:center;
+    } */
+    #play{
+        z-index: 9999;
+    }
+
+</style>
+
 <body>
-<div id="app"></div>
-<script type="text/javascript" src="./js/bundle.js" async></script></body>
+    <div id="app"></div>
+    <div id="play">
+        <ol>
+            <li><a href="#">七巧板</a></li>
+            <li><a href="./html/chess.html">立体小游戏</a></li>
+            <li><a href="#">立体照片</a></li>
+        </ol>
+    </div>
+    <div id="music">
+        <audio autoplay controls src="./audio/xywm.mp3"></audio>
+    </div>
+    
+    <script src="./js/click.js"></script>
+    <script type="text/javascript" src="./js/bundle.js"></script>
+</body>
+
 </html>
