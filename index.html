@@ -19,13 +19,13 @@
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 </head>
 <style>
-    /* @font-face{
+    @font-face{
         font-family:yezi;
         src:url(../fonts/我的小叶子.ttf) format("truetype");
         font-weight:400;
         font-style:normal;
-    } */
-    /* .icon span a{
+    }
+    a{
         display:inline-block;height:100%;
         font-family:yezi;
         src:url(../fonts/我的小叶子.ttf) format("truetype");
@@ -34,20 +34,21 @@
         text-transform:none;
         font-style: normal;
         text-align:center;
-    } */
+        text-decoration: none;
+    }
     #play{
+        position: relative;
         z-index: 99999999999999;
     }
-
 </style>
 
-<body>
+<body style="overflow:hidden">
     <div id="app"></div>
     <div id="play">
         <ol>
-            <li><a href="#">七巧板</a></li>
-            <li><a href="./html/chess.html">立体小游戏</a></li>
+            <li><a href="./html/boxes.html">七巧板</a></li>
             <li><a href="#">立体照片</a></li>
+            <li><a href="./html/chess.html">立体小游戏</a></li>
         </ol>
     </div>
     <div id="music">
